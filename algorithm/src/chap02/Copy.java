@@ -25,7 +25,7 @@ public class Copy {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("a 크기 : ");
+		System.out.print("a 크기는 : ");
 		int length_a = sc.nextInt();
 		int[] a = new int[length_a];
 		for (int i = 0; i < length_a; i++) {
@@ -33,7 +33,7 @@ public class Copy {
 			a[i] = sc.nextInt();
 		}
 		
-		System.out.print("b 크기 : ");
+		System.out.print("b 크기는 : ");
 		int length_b = sc.nextInt();
 		int[] b = new int[length_b];
 		for (int i = 0; i < length_b; i++) {
